@@ -1,4 +1,4 @@
-#!bin/bash
+#!bin/bash       (To create a bash script, you place #!/bin/bash at the top of the file. To execute the script from the current directory)
 yum update -y
 yum install httpd php php-mysql -y
 cd /var/www/html
